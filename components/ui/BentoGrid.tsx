@@ -76,7 +76,7 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover, object-center")}
+              className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
         </div>
@@ -89,6 +89,7 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
+              //   width={220}
               className="size-full object-cover object-center"
             />
           )}
@@ -115,7 +116,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="absolute -right-3 flex w-fit gap-1 lg:-right-2 lg:gap-5">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {["React.js", "Next.js", "MongoDB"].map((el) => (
+                {["JavaScript", "Next.js", "Tailwind"].map((el) => (
                   <span
                     key={el}
                     className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 
@@ -129,7 +130,7 @@ export const BentoGridItem = ({
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 <span className="rounded-lg bg-[#10132e] px-3 py-4 text-center" />
-                {["Javascript", "Scss", "Tailwind"].map((el) => (
+                {["Typescript", "MongoDB", "React.js"].map((el) => (
                   <span
                     key={el}
                     className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 
