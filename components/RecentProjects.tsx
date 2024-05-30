@@ -21,7 +21,7 @@ const RecentProjects = () => {
             key={id}
           >
             <PinContainer title={link} href={link}>
-              <Link href={link}>
+              <Link href={link} target="_blank">
                 <div className="relative mb-10 flex h-[30vh] w-[80vw] items-center justify-center overflow-hidden sm:h-[40vh] sm:w-[570px]">
                   <div
                     className="relative size-full overflow-hidden lg:rounded-3xl"

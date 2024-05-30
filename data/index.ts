@@ -1,14 +1,15 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I thrive in team environments and enjoy collaborating with colleagues and clients.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "Flexible with working hours and comfortable with both remote and office work.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +31,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "Constantly striving to progress",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Always willing to go the extra mile.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -84,14 +86,14 @@ export const projects = [
     ],
     link: "https://programersko-pitanje.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://zoom-two-olive.vercel.app/",
-  },
+  // {
+  //   id: 2,
+  //   title: "Yoom - Video Conferencing App",
+  //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+  //   img: "/p2.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+  //   link: "https://zoom-two-olive.vercel.app/",
+  // },
 ];
 
 export const testimonials = [
@@ -171,8 +173,8 @@ export const workExperience = [
   {
     id: 3,
     title: "Freelance Website Dev Project",
-    desc: "Led the dev of personal training website for a client, from initial concept to deployment.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "Leading the dev of personal training website for a client, from initial concept to deployment. Coming soon...",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
 ];
@@ -181,13 +183,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: "https://github.com/NenadBanjeglav",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/nenad-banjeglav-1923a21b1/",
   },
 ];
