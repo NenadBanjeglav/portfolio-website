@@ -86,14 +86,14 @@ export const projects = [
     ],
     link: "https://programersko-pitanje.vercel.app/",
   },
-  // {
-  //   id: 2,
-  //   title: "Yoom - Video Conferencing App",
-  //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-  //   img: "/p2.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-  //   link: "https://zoom-two-olive.vercel.app/",
-  // },
+  {
+    id: 2,
+    title: "Kulpinski Personal Training",
+    des: "Personal training website for Kulpinski PT",
+    img: "/kulpinskipt-image.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://kulpinski-pt.vercel.app/",
+  },
 ];
 
 export const testimonials = [
