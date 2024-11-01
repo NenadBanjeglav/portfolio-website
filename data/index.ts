@@ -76,7 +76,7 @@ export const projects = [
     id: 1,
     title: "Auto Škola Drive Team",
     des: "Razvio sam modernu, responzivnu landing stranicu za Auto Školu Drive Team iz Novog Sada kao svoj prvi samostalni freelance projekat. Koristeći Next.js, Tailwind CSS i Framer Motion, kreirao sam vizuelno privlačan i dinamičan dizajn sa glatkim animacijama za unapređenje korisničkog iskustva. Projekat je obuhvatao integraciju obrazaca za prijavu, sekcija za cene i informativnih elemenata koji studentima pružaju sve potrebne informacije na jednom mestu, sa naglaskom na intuitivnu navigaciju i estetsku privlačnost.",
-    img: "/kulpinskipt-image.png",
+    img: "/DriveTeamPic.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://auto-skola-dt.vercel.app/",
   },
