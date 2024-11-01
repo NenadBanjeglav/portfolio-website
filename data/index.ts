@@ -74,6 +74,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Auto Škola Drive Team",
+    des: "Razvio sam modernu, responzivnu landing stranicu za Auto Školu Drive Team iz Novog Sada kao svoj prvi samostalni freelance projekat. Koristeći Next.js, Tailwind CSS i Framer Motion, kreirao sam vizuelno privlačan i dinamičan dizajn sa glatkim animacijama za unapređenje korisničkog iskustva. Projekat je obuhvatao integraciju obrazaca za prijavu, sekcija za cene i informativnih elemenata koji studentima pružaju sve potrebne informacije na jednom mestu, sa naglaskom na intuitivnu navigaciju i estetsku privlačnost.",
+    img: "/kulpinskipt-image.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://auto-skola-dt.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Programersko Pitanje",
     des: "Programersko Pitanje je online platforma namenjena mladim programerima koji žele da unaprede svoje veštine i znanje u IT industriji. Ovaj sajt pruža prostor za postavljanje pitanja, deljenje iskustava i razmenu ideja među članovima zajednice. Bez obzira da li se radi o početnicima u programiranju ili iskusnim profesionalcima.",
     img: "/programersko.png",
@@ -87,7 +95,7 @@ export const projects = [
     link: "https://programersko-pitanje.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Home Away",
     des: "AirBnB Clone rental booking app",
     img: "/home-awayss.png",
@@ -102,7 +110,7 @@ export const projects = [
     link: "https://home-away-seven-iota.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Kulpinski Personal Training",
     des: "Personal training website for Kulpinski PT",
     img: "/kulpinskipt-image.png",
