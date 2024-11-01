@@ -194,9 +194,16 @@ export const workExperience = [
     thumbnail: "/exp1.svg",
   },
   {
-    id: 3,
+    id: 2,
     title: "Freelance Website Dev Project",
-    desc: "Leading the dev of personal training website for a client, from initial concept to deployment. Coming soon...",
+    desc: "Leading the dev of personal training website for a client, from initial concept to deployment..",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 3,
+    title: "Freelance Frontend Developer Intern (AI & E-commerce MVP)",
+    desc: "Working on an AI-powered analytics MVP as a freelance intern for sellers on a major e-commerce platform, aimed at providing actionable insights to enhance seller performance and decision-making. Utilizing Next.js, GraphQL, TypeScript, Tailwind CSS, and Firebase to develop a responsive, data-driven interface that supports real-time analysis. Collaborating with an international team to integrate AI models and deliver a seamless user experience, following agile development practices.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
