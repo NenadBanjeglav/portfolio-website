@@ -188,10 +188,10 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "UI/UX Developer Internship",
-    desc: "To solidify my knowledge, I aplied my skills in real-world scenarios during my time at Vega IT, where I contributed to UI/UX development project.",
+    title: "Freelance Frontend Developer Intern (AI & E-commerce MVP)",
+    desc: "Working on an AI-powered analytics MVP as a freelance intern for sellers on a major e-commerce platform, aimed at providing actionable insights to enhance seller performance and decision-making. Utilizing Next.js, GraphQL, TypeScript, Tailwind CSS, and Firebase to develop a responsive, data-driven interface that supports real-time analysis. Collaborating with an international team to integrate AI models and deliver a seamless user experience, following agile development practices.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 2,
@@ -202,10 +202,10 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Freelance Frontend Developer Intern (AI & E-commerce MVP)",
-    desc: "Working on an AI-powered analytics MVP as a freelance intern for sellers on a major e-commerce platform, aimed at providing actionable insights to enhance seller performance and decision-making. Utilizing Next.js, GraphQL, TypeScript, Tailwind CSS, and Firebase to develop a responsive, data-driven interface that supports real-time analysis. Collaborating with an international team to integrate AI models and deliver a seamless user experience, following agile development practices.",
+    title: "UI/UX Developer Internship",
+    desc: "To solidify my knowledge, I aplied my skills in real-world scenarios during my time at Vega IT, where I contributed to UI/UX development project.",
     className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp1.svg",
   },
 ];
 
