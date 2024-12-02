@@ -194,9 +194,9 @@ export const workExperience = [
     thumbnail: "/exp4.svg",
   },
   {
-    id: 2,
-    title: "Freelance Website Dev Project",
-    desc: "Leading the dev of personal training website for a client, from initial concept to deployment..",
+    id: 3,
+    title: "Freelance Website Language Method Dev Project",
+    desc: "Leading the dev of language learning method product website for a client, from initial concept to deployment..",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
@@ -206,6 +206,13 @@ export const workExperience = [
     desc: "To solidify my knowledge, I aplied my skills in real-world scenarios during my time at Vega IT, where I contributed to UI/UX development project.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Freelance Website Dev Project",
+    desc: "Leading the dev of personal training website for a client, from initial concept to deployment..",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
   },
 ];
 
