@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently learning backend development with Node.js",
+    title: "Currently learning React Native Expo",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -111,11 +111,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Kulpinski Personal Training",
-    des: "Personal training website for Kulpinski PT",
-    img: "/kulpinskipt-image.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://kulpinski-pt.vercel.app/",
+    title: "GlassMarket Ecommerce",
+    des: "E-commerce shop for Glass Market Glassware",
+    img: "/glassmarket.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/sanity.svg", "/c.svg"],
+    link: "https://glassmarket.dev/",
   },
 ];
 
